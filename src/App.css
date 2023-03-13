@@ -1,0 +1,36 @@
+.path {
+  position: relative;
+  height: 0px;
+  margin: 50px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.planet {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 100px;
+  cursor: grab;
+  z-index: 100;
+  transition: background-color 0.5s ease;
+}
+
+.city {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: fit-content;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
